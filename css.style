@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+p{
+    color:#8f8f8f;
+}
+
+/* headings */
+
+.big-heading{
+    margin-top:80px;
+    line-height: 1.5;
+    font-size: 3.3rem;
+    font-weight: 900;
+    font-family: "Montserrat";  
+}
+
+.section-heading{
+    background-color:#c8eed9;
+    font-size:3rem;
+    line-height:1.5;
+}
+.container-fluid{
+    padding:7% 15%;
+}
+.colored-section{
+    background-color: #FFA500;
+    color:#fff;
+}
+.white-section{
+    background-color:#ffe550;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-size:2.2rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family:"Montserrat";
+    font-weight: 200;
+}
+
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+#title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+#features{
+    position: relative;
+}
+
+.features-box{
+    padding:4%;
+}
+
+.feature-heads{
+    font-size: 1.5rem;
+}
+/* icons */
+.icons{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icons:hover{
+    color:#ff4c68;
+}
+
+
+#work{
+    background: url(../images/atwork.jpg);
+}
+
+#work-head{
+    color:#0a58ca;
+}
+
+.work-text{
+    width:50%;
+    margin:0 auto;
+    color:#001570;
+}
+.work-img{
+    width:60%;
+    padding:1rem;
+}
+#Join{
+    padding:6.5%;
+}
+
+.Join-para{
+    font-size: 1.8rem;
+    color:#0a58ca;
+    font-family: "Montserrat";
+}
+
+.Join-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+.Join-card{
+    padding:3% 2%;
+}
+
+.Join-btn{
+    background-color: #0a58ca;
+}
+.contact-icon{
+    margin:2% 1%;
+    cursor:pointer;
+    transition:1s;
+}
+
+.contact-icon:hover{
+    width:2rem;
+    height:2rem;
+}
+
+@media (max-width:991px){
+    #title{
+        text-align: center;
+    }
+    .top-img{
+        position: static;
+        margin:0 auto;
+        width:80%;
+    }
+}
